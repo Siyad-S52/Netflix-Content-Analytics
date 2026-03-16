@@ -82,3 +82,21 @@ Key insights were derived from the analysis to understand Netflix's content stra
 
 ## Project Structure
 
+Netflix-Content-Analytics
+│
+├── Netflix_Content_Analytics.ipynb
+├── dataset
+│ └── netflix_titles.csv
+├── images
+│ └── charts.png
+└── README.md
+
+## Project Outcome
+
+This project demonstrates how **data analytics and visualization techniques** can be used to uncover strategic insights from streaming platform datasets.
+
+---
+
+## Author
+
+**Siyad S**
