@@ -1,40 +1,84 @@
-# Netflix-Content-Analytics
-📊 Comprehensive EDA and Visualization of Netflix's Global Library (2008–2021). Analyzing content shifts, geographic dominance (US, India, South Korea), and the impact of the 2020 pandemic on streaming strategy using Python.
+# Netflix Content Analytics 📊
 
+## Project Overview
+This project analyzes the content strategy and library evolution of Netflix between **2008 and 2021** using **Python and Exploratory Data Analysis (EDA)**.
 
-## ⚙️ Installation & Setup
-To run this notebook locally, follow these steps:
+The goal of the project is to identify trends in Netflix's content growth, distribution of movies vs TV shows, genre popularity, and geographic content production.
 
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/Netflix-Analysis.git
+---
 
-# Install dependencies
-pip install pandas matplotlib seaborn plotly
-\`\`\`
+## Objectives
+• Understand Netflix content distribution  
+• Analyze growth of Netflix content over the years  
+• Compare Movies vs TV Shows  
+• Identify top content producing countries  
+• Analyze popular genres on Netflix  
 
+---
 
-# 🎥 Netflix Global Content Strategy & Evolution (2008–2021)
+## Dataset
+Source: Netflix titles dataset  
 
-## 📌 Project Overview
-This project performs an end-to-end **Exploratory Data Analysis (EDA)** on the Netflix titles dataset. The goal is to decode Netflix's content strategy, specifically how it has shifted from a movie-focused platform to a global TV show powerhouse.
+The dataset includes information such as:
+- Title
+- Type (Movie / TV Show)
+- Director
+- Cast
+- Country
+- Date Added
+- Release Year
+- Rating
+- Duration
+- Genre
 
-## 🚀 Key Insights
-* **The Content Shift:** Visualizing the transition between Movies and TV Shows.
-* **Global Footprint:** Using Interactive Treemaps to identify market dominance in the US and India.
-* **Regional Nuances:** Uncovering why South Korea and Japan are TV-show heavy.
-* **Growth Trends:** Analyzing the massive spike in content additions between 2017 and 2019.
+---
 
-## 🛠️ Tech Stack
-* **Python** (Pandas, NumPy)
-* **Visualizations:** Plotly (Interactive), Seaborn, Matplotlib
+## Project Workflow
 
-## ⚙️ Installation & Usage
-To run this project locally, copy and paste these commands into your terminal:
+### Phase 1 — Problem Understanding
+- Define project objectives
+- Understand dataset structure
+- Identify key analysis areas
 
-```bash
-# Clone the repository
-git clone [https://github.com/YOUR_USERNAME/Netflix-Content-Analytics.git](https://github.com/YOUR_USERNAME/Netflix-Content-Analytics.git)
+### Phase 2 — Data Cleaning
+- Handle missing values
+- Remove duplicates
+- Convert data types
+- Prepare dataset for analysis
 
-# Install the required libraries
-pip install pandas plotly seaborn matplotlib
+### Phase 3 — Exploratory Data Analysis (EDA)
+- Content distribution analysis
+- Movies vs TV Shows comparison
+- Country-wise content production
+- Genre analysis
+- Content growth over time
+- Data visualization using charts
+
+### Phase 4 — Key Insights & Conclusion
+Key insights were derived from the analysis to understand Netflix's content strategy.
+
+---
+
+## Key Insights
+
+• Movies dominate Netflix's library compared to TV shows.  
+• Significant growth in Netflix content occurred after **2016**.  
+• The **United States** produces the highest number of titles on Netflix.  
+• **Drama and International genres** are among the most common categories.  
+• Netflix increasingly focuses on **global content expansion**.
+
+---
+
+## Tools & Technologies Used
+
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
